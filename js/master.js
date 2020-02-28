@@ -10,7 +10,7 @@ fetch(fetchUrl)
 
 function createElements(data) {
     $commentsDOM.append(
-        data.filter(art => art.postId === 1).map(({name, email, id, body}) => {
+        data.filter(({postId}) => postId === 1).map(({name, email, id, body}) => {
             return `
         <article>
             <h2>${name}</h2>
