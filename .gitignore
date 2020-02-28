@@ -1,3 +1,12 @@
 .DS_Store
 
 .now
+!/.idea/workspace.xml
+/.ida/
+.idea/.gitignore
+.idea/composerJson.xml
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/teplateliteral and decon fetch.iml
+.idea/vcs.xml

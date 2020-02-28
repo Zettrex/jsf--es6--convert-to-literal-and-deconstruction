@@ -3,12 +3,8 @@ const $commentsDOM = $('#comments');
 const fetchUrl = "https://jsonplaceholder.typicode.com/comments";
 
 fetch(fetchUrl)
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-        createElements(data);
-  });
+  .then(response => response.json())
+  .then(createElements);
 
 
 
